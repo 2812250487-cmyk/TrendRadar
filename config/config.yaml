@@ -1,19 +1,18 @@
  # 监控平台（只开B站）
-platforms:
+platforms   平台::
   - bilibili
 
 # 你要监控的关键词（自己改）
-keywords:
-  - 红红火火复盘
-
+keywords   关键词::
+  - 月沉溪-
 # 推送渠道（只开钉钉）
 push_channels:
   dingtalk: true
-  wecom: false
-  telegram: false
+  wecom   wecom:假: false
+  telegram   电报:假: false
 
 # 过滤规则
-filter:
+filter   过滤器::
   only_new: true       # 只监控新内容
   min_hot: 0           # 热度过滤（0=不过滤）
   remove_ad: true       # 过滤广告
